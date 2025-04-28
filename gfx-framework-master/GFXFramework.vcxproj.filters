@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\camera_input.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\scene_input.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\simple_scene.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\text_renderer.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\engine.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\frame_buffer.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\gpu_buffers.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\mesh.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\shader.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\texture2D.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\managers\texture_manager.cpp">
+      <Filter>src\core\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\window\input_controller.cpp">
+      <Filter>src\core\window</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\window\window_callbacks.cpp">
+      <Filter>src\core\window</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\window\window_object.cpp">
+      <Filter>src\core\window</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\world.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab1\lab1.cpp">
+      <Filter>src\lab_m1\lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab2\lab2.cpp">
+      <Filter>src\lab_m1\lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3.cpp">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3_vis2D.cpp">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\object2D.cpp">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab4\lab4.cpp">
+      <Filter>src\lab_m1\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab5\lab5.cpp">
+      <Filter>src\lab_m1\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\lab6.cpp">
+      <Filter>src\lab_m1\lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\lab7.cpp">
+      <Filter>src\lab_m1\lab7</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\lab8.cpp">
+      <Filter>src\lab_m1\lab8</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\lab9.cpp">
+      <Filter>src\lab_m1\lab9</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\utils\gl_utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\utils\text_utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lab_m1\Tema1\tema1.cpp">
+      <Filter>src\lab_m1\tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lab_m1\Tema2\tema2.cpp">
+      <Filter>src\lab_m1\tema2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\camera.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\camera_input.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\exports.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\scene_input.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\simple_scene.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\text_renderer.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\transform.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\engine.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\frame_buffer.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\gpu_buffers.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\mesh.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\particle_effect.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\shader.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\ssbo.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\texture2D.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\vertex_bone_data.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\vertex_format.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\managers\resource_path.h">
+      <Filter>src\core\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\managers\texture_manager.h">
+      <Filter>src\core\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\window\input_controller.h">
+      <Filter>src\core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\window\window_callbacks.h">
+      <Filter>src\core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\window\window_object.h">
+      <Filter>src\core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\world.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab1\lab1.h">
+      <Filter>src\lab_m1\lab1</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab2\lab2.h">
+      <Filter>src\lab_m1\lab2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3.h">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3_vis2D.h">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\object2D.h">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\transform2D.h">
+      <Filter>src\lab_m1\lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab4\lab4.h">
+      <Filter>src\lab_m1\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab4\transform3D.h">
+      <Filter>src\lab_m1\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab5\lab5.h">
+      <Filter>src\lab_m1\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab5\lab_camera.h">
+      <Filter>src\lab_m1\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\lab6.h">
+      <Filter>src\lab_m1\lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\shaders\FragmentShader.glsl">
+      <Filter>src\lab_m1\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\shaders\VertexShader.glsl">
+      <Filter>src\lab_m1\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\lab7.h">
+      <Filter>src\lab_m1\lab7</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\shaders\FragmentShader.glsl">
+      <Filter>src\lab_m1\lab7\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\shaders\VertexShader.glsl">
+      <Filter>src\lab_m1\lab7\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\lab8.h">
+      <Filter>src\lab_m1\lab8</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\shaders\FragmentShader.glsl">
+      <Filter>src\lab_m1\lab8\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\shaders\VertexShader.glsl">
+      <Filter>src\lab_m1\lab8\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\lab9.h">
+      <Filter>src\lab_m1\lab9</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\shaders\FragmentShader.glsl">
+      <Filter>src\lab_m1\lab9\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\shaders\VertexShader.glsl">
+      <Filter>src\lab_m1\lab9\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab_list.h">
+      <Filter>src\lab_m1</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\gl_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\glm_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\math_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\memory_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\text_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\window_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_m1\Tema1\tema1.h">
+      <Filter>src\lab_m1\tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_m1\Tema2\tema2.h">
+      <Filter>src\lab_m1\tema2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\fac\egc\gfx-framework-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{92449D54-07D2-3D0D-A258-F69B375B197C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\components">
+      <UniqueIdentifier>{C8FC2907-B0E5-3961-8391-7411FB18FA33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{11628979-91FE-3023-9151-26F431E41038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\gpu">
+      <UniqueIdentifier>{16F8FDAB-47E9-36E0-8621-F3B421CD523A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\managers">
+      <UniqueIdentifier>{15582A6F-B976-3361-9D81-CF7C1EB8C4F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\window">
+      <UniqueIdentifier>{243D3360-F866-34AD-9591-0946BBC55442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1">
+      <UniqueIdentifier>{EA9B335B-FE8A-315C-BF9E-FDBB1B0432EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab1">
+      <UniqueIdentifier>{5368C696-66C6-3D03-AE4B-B7CA69082503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab2">
+      <UniqueIdentifier>{F666863C-FA6D-3223-8E35-DC6A8BDD3E38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab3">
+      <UniqueIdentifier>{86BE0D12-25FE-3C00-A40C-A1667B43DB41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab4">
+      <UniqueIdentifier>{F30061AC-64A8-3294-90F0-46151046D65A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab5">
+      <UniqueIdentifier>{612BE4E8-98EF-3B61-99DF-B1DFD315B166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab6">
+      <UniqueIdentifier>{FE984ED6-7F89-3E40-ADD2-0B59430DEC8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab6\shaders">
+      <UniqueIdentifier>{0DFFA67A-C81F-360E-B42C-F960BD2F8DFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab7">
+      <UniqueIdentifier>{83A73C07-98DA-3804-A25B-D4FC7A9D6809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab7\shaders">
+      <UniqueIdentifier>{5B0F8CA6-6C57-3490-A2E5-41AEEDC54022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab8">
+      <UniqueIdentifier>{7F628445-9C7C-372E-ADAC-996AA989D473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab8\shaders">
+      <UniqueIdentifier>{09609ACE-774C-3C5A-AB2E-0C67A65AE616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab9">
+      <UniqueIdentifier>{CECE5AC3-74FB-3F7B-91C5-8A3A4547D4BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\lab9\shaders">
+      <UniqueIdentifier>{66E297D7-0366-371A-AA94-5888575A9894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{A834083D-61B7-33FA-A30F-E22A9851B1D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\tema1">
+      <UniqueIdentifier>{605f029d-bb4f-4795-a5b9-0815f67e51bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\tema2">
+      <UniqueIdentifier>{da7eec81-6e0c-46ff-8b41-52167201ffbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lab_m1\tema2\shaders">
+      <UniqueIdentifier>{5f5b64af-ab93-4eef-b1af-96bb35c00613}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lab_m1\Tema2\shaders\FragmentShader.glsl">
+      <Filter>src\lab_m1\tema2\shaders</Filter>
+    </None>
+    <None Include="src\lab_m1\Tema2\shaders\VertexShader.glsl">
+      <Filter>src\lab_m1\tema2\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

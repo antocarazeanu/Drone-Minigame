@@ -1,0 +1,3 @@
+D:/fac/egc/gfx-framework-master/CMakeFiles/GFXFramework.dir
+D:/fac/egc/gfx-framework-master/CMakeFiles/ALL_BUILD.dir
+D:/fac/egc/gfx-framework-master/CMakeFiles/ZERO_CHECK.dir

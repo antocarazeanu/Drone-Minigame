@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6D142CB-539B-3071-90E6-5F54F59BD987}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GFXFramework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\fac\egc\gfx-framework-master\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GFXFramework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/fac/egc/gfx-framework-master</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\fac\egc\gfx-framework-master\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GFXFramework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/fac/egc/gfx-framework-master</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\fac\egc\gfx-framework-master\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GFXFramework.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/fac/egc/gfx-framework-master</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\fac\egc\gfx-framework-master\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GFXFramework.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/fac/egc/gfx-framework-master</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;DEBUG;WITH_LAB_M1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;DEBUG;WITH_LAB_M1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:/fac/egc/gfx-framework-master/deps/prebuilt/GL/x86_64/glew32.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/GLFW/x86_64/glfw3.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/assimp/x86_64/assimp.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/spdlog/x86_64/spdlog.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/freetype/x86_64/freetype.dll D:/fac/egc/gfx-framework-master/bin/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\Debug\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\Debug\src D:\fac\egc\gfx-framework-master\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\Debug\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\Debug\assets D:\fac\egc\gfx-framework-master\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:\fac\egc\gfx-framework-master/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll D:\fac\egc\gfx-framework-master\bin\Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/fac/egc/gfx-framework-master/Debug/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/fac/egc/gfx-framework-master/bin/Debug/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:/fac/egc/gfx-framework-master/deps/prebuilt/GL/x86_64/glew32.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/GLFW/x86_64/glfw3.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/assimp/x86_64/assimp.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/spdlog/x86_64/spdlog.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/freetype/x86_64/freetype.dll D:/fac/egc/gfx-framework-master/bin/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\Release\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\Release\src D:\fac\egc\gfx-framework-master\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\Release\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\Release\assets D:\fac\egc\gfx-framework-master\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:\fac\egc\gfx-framework-master/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll D:\fac\egc\gfx-framework-master\bin\Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/fac/egc/gfx-framework-master/Release/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/fac/egc/gfx-framework-master/bin/Release/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:/fac/egc/gfx-framework-master/deps/prebuilt/GL/x86_64/glew32.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/GLFW/x86_64/glfw3.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/assimp/x86_64/assimp.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/spdlog/x86_64/spdlog.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/freetype/x86_64/freetype.dll D:/fac/egc/gfx-framework-master/bin/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\MinSizeRel\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\MinSizeRel\src D:\fac\egc\gfx-framework-master\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\MinSizeRel\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\MinSizeRel\assets D:\fac\egc\gfx-framework-master\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:\fac\egc\gfx-framework-master/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll D:\fac\egc\gfx-framework-master\bin\MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/fac/egc/gfx-framework-master/MinSizeRel/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/fac/egc/gfx-framework-master/bin/MinSizeRel/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\fac\egc\gfx-framework-master\deps\api;D:\fac\egc\gfx-framework-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:/fac/egc/gfx-framework-master/deps/prebuilt/GL/x86_64/glew32.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/GLFW/x86_64/glfw3.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/assimp/x86_64/assimp.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/spdlog/x86_64/spdlog.dll D:/fac/egc/gfx-framework-master/deps/prebuilt/freetype/x86_64/freetype.dll D:/fac/egc/gfx-framework-master/bin/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\RelWithDebInfo\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\RelWithDebInfo\src D:\fac\egc\gfx-framework-master\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q D:\fac\egc\gfx-framework-master\bin\RelWithDebInfo\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J D:\fac\egc\gfx-framework-master\bin\RelWithDebInfo\assets D:\fac\egc\gfx-framework-master\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\fac\egc\bin\cmake.exe -E copy_if_different D:\fac\egc\gfx-framework-master/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll D:\fac\egc\gfx-framework-master\bin\RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/fac/egc/gfx-framework-master/RelWithDebInfo/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/fac/egc/gfx-framework-master/bin/RelWithDebInfo/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\fac\egc\gfx-framework-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/fac/egc/gfx-framework-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\fac\egc\bin\cmake.exe -SD:/fac/egc/gfx-framework-master -BD:/fac/egc/gfx-framework-master --check-stamp-file D:/fac/egc/gfx-framework-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\fac\egc\gfx-framework-master\infra\utils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompilerABI.c;D:\fac\egc\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\fac\egc\share\cmake-3.30\Modules\FindOpenGL.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/fac/egc/gfx-framework-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\fac\egc\bin\cmake.exe -SD:/fac/egc/gfx-framework-master -BD:/fac/egc/gfx-framework-master --check-stamp-file D:/fac/egc/gfx-framework-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\fac\egc\gfx-framework-master\infra\utils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompilerABI.c;D:\fac\egc\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\fac\egc\share\cmake-3.30\Modules\FindOpenGL.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/fac/egc/gfx-framework-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\fac\egc\bin\cmake.exe -SD:/fac/egc/gfx-framework-master -BD:/fac/egc/gfx-framework-master --check-stamp-file D:/fac/egc/gfx-framework-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\fac\egc\gfx-framework-master\infra\utils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompilerABI.c;D:\fac\egc\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\fac\egc\share\cmake-3.30\Modules\FindOpenGL.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/fac/egc/gfx-framework-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\fac\egc\bin\cmake.exe -SD:/fac/egc/gfx-framework-master -BD:/fac/egc/gfx-framework-master --check-stamp-file D:/fac/egc/gfx-framework-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\fac\egc\gfx-framework-master\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\fac\egc\gfx-framework-master\infra\utils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCCompilerABI.c;D:\fac\egc\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\fac\egc\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\fac\egc\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\fac\egc\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\fac\egc\share\cmake-3.30\Modules\FindOpenGL.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\fac\egc\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\fac\egc\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\fac\egc\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\fac\egc\gfx-framework-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\camera_input.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\scene_input.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\simple_scene.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\components\text_renderer.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\engine.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\frame_buffer.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\gpu_buffers.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\mesh.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\shader.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\gpu\texture2D.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\managers\texture_manager.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\window\input_controller.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\window\window_callbacks.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\window\window_object.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\core\world.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab1\lab1.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab2\lab2.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3_vis2D.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\object2D.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab4\lab4.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab5\lab5.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\lab6.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\lab7.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\lab8.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\lab9.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\main.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\utils\gl_utils.cpp" />
+    <ClCompile Include="D:\fac\egc\gfx-framework-master\src\utils\text_utils.cpp" />
+    <ClCompile Include="src\lab_m1\Tema1\tema1.cpp" />
+    <ClCompile Include="src\lab_m1\Tema2\tema2.cpp" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\camera.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\camera_input.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\exports.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\scene_input.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\simple_scene.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\text_renderer.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\components\transform.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\engine.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\frame_buffer.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\gpu_buffers.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\mesh.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\particle_effect.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\shader.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\ssbo.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\texture2D.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\vertex_bone_data.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\gpu\vertex_format.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\managers\resource_path.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\managers\texture_manager.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\window\input_controller.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\window\window_callbacks.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\window\window_object.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\core\world.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab1\lab1.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab2\lab2.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\lab3_vis2D.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\object2D.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab3\transform2D.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab4\lab4.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab4\transform3D.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab5\lab5.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab5\lab_camera.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\lab6.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\shaders\FragmentShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab6\shaders\VertexShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\lab7.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\shaders\FragmentShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab7\shaders\VertexShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\lab8.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\shaders\FragmentShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab8\shaders\VertexShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\lab9.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\shaders\FragmentShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab9\shaders\VertexShader.glsl" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\lab_m1\lab_list.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\gl_utils.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\glm_utils.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\math_utils.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\memory_utils.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\text_utils.h" />
+    <ClInclude Include="D:\fac\egc\gfx-framework-master\src\utils\window_utils.h" />
+    <ClInclude Include="src\lab_m1\Tema1\tema1.h" />
+    <ClInclude Include="src\lab_m1\Tema2\tema2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\fac\egc\gfx-framework-master\ZERO_CHECK.vcxproj">
+      <Project>{4A9CCCD3-19B6-3490-9ABF-76AB2CC9AA9A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lab_m1\Tema2\shaders\FragmentShader.glsl" />
+    <None Include="src\lab_m1\Tema2\shaders\VertexShader.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
